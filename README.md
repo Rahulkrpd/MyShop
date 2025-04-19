@@ -1,6 +1,8 @@
 # React + TypeScript + Vite
 
 # 🛒 MyShop
+🚀 **Live Demo:** [https://myshop-sable-seven.vercel.app](https://myshop-sable-seven.vercel.app)
+
 
 A modern e-commerce UI built with **React**, **Vite**, **TypeScript**, **Tailwind CSS**, and **ShadCN UI**, featuring product browsing, filtering, and cart management with persistent local storage.
 
@@ -53,6 +55,7 @@ A modern e-commerce UI built with **React**, **Vite**, **TypeScript**, **Tailwin
 
 ### 🛒 Footer page Contact Us  
 ![Footer Page](./public/screenshots/footerPage.png)
+
 
 
 
