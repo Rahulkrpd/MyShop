@@ -39,6 +39,23 @@ A modern e-commerce UI built with **React**, **Vite**, **TypeScript**, **Tailwin
     npm run dev
 
 
+## 📸 Screenshots
+
+### 🏠 Home Page – Product Listing with Filters & Search  
+![Home Page](./public/screenshots/homePage.png)
+
+### 📄 Product Details Page  
+![Product Detail Page](./public//screenshots/productPage.png)
+
+### 🛒 Cart Page with Quantity Controls  
+![Cart Page](./public//screenshots/cartPage.png)
+
+
+### 🛒 Footer page Contact Us  
+![Footer Page](./public/screenshots/footerPage.png)
+
+
+
 
 
 
@@ -71,6 +88,7 @@ A modern e-commerce UI built with **React**, **Vite**, **TypeScript**, **Tailwin
 - 💾 **Data caching**: Products are saved locally to avoid refetching  
 
 ---
+
 
 ## 👤 Created By
 
