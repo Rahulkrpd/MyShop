@@ -1,54 +1,78 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 MyShop
 
-Currently, two official plugins are available:
+A modern e-commerce UI built with **React**, **Vite**, **TypeScript**, **Tailwind CSS**, and **ShadCN UI**, featuring product browsing, filtering, and cart management with persistent local storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **React** – Frontend framework for building UI components
+- **Vite** – Fast development and build tool
+- **TypeScript** – Type-safe JavaScript for improved DX and scalability
+- **Tailwind CSS** – Utility-first CSS framework for rapid styling
+- **ShadCN UI** – Beautiful accessible UI components built on top of Radix and Tailwind
+- **React Router** – Client-side routing for SPA navigation
+- **React Icons** – Icon library integration for React
+- **Sonner (toast)** – Clean and customizable toast notifications
+- **localStorage** – Browser API to persist cart and product data
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Setup Instructions
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/Rahulkrpd/MyShop.git
+   cd MyShop
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+
+2. **Install dependencies**  
+   ```bash
+    npm install
+
+
+2. **Run the app**  
+   ```bash
+    npm run dev
+
+
+
+
+
+## 📦 Key Dependencies & Purpose
+
+| Package                 | Why It's Used                                                     |
+|-------------------------|-------------------------------------------------------------------|
+| `react`                 | Core UI library                                                   |
+| `vite`                  | Lightning-fast dev server and bundler                             |
+| `typescript`            | Ensures type safety across components                             |
+| `tailwindcss`           | Rapid and responsive styling using utility classes                |
+| `@shadcn/ui`            | Prebuilt Tailwind-based accessible UI components                  |
+| `react-router-dom`      | Handles route navigation (e.g. Home, Product, Cart)               |
+| `react-hot-toast` / `sonner` | Toast notifications (e.g. add to cart)                      |
+| `react-icons`           | Lightweight icon integration                                      |
+
+---
+
+## ✨ Features
+
+- 🔍 **Search & Filter** by product title or category  
+- 🛒 **Cart System**  
+  - Add/remove products  
+  - Quantity control with +/- buttons  
+  - View total price  
+  - Persist cart across refresh via `localStorage`  
+- 📄 **Product Detail View**  
+  - View full description, rating, and price  
+- ✅ **Toast notifications** on important actions  
+- 💾 **Data caching**: Products are saved locally to avoid refetching  
+
+---
+
+## 👤 Created By
+
+**Rahul**  
+🔗 GitHub: [https://github.com/Rahulkrpd/MyShop](https://github.com/Rahulkrpd/MyShop)
